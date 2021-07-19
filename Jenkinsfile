@@ -23,6 +23,7 @@ pipeline{
       stage('build'){
         steps{
           echo 'Hello World'
+          sleep 1000
         }
       }
     }
